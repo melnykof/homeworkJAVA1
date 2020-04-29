@@ -1,7 +1,10 @@
 ## Краткое описание
-Тестирование выполнил студент QA-6 Мельников Артем
+#### Тестирование выполнил студент QA-6 Мельников Артем
+
 •  Начало тестирование 29.04.20 
+
 •  Конец тестирование 29.04.20
+
 •  На тестирование затрачено: <1 час>
 
 ### В процессе тестирования необходимо было протестировать:
@@ -25,14 +28,17 @@
 Приложение работает под **OC Windows 10pro** и запускается совместимо с **Java 11**
 
 `openjdk version "11.0.7" 2020-04-14`
+
 `OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.7+10)`
+
 `OpenJDK Client VM AdoptOpenJDK (build 11.0.7+10, mixed mode)`
 
 Приложение работает согласно руководству использования.
+
 **Status: PASSED**
 
 ## Bug report: Руководство использования  KeyValidator
-В качестве тестовых данных использовались данные:
+***В качестве тестовых данных использовались данные***:
 * [Руководство использования KeyValidator](<https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md>)
 
 ## После тестирования было выявлено такие данные:
@@ -40,6 +46,7 @@
 **java KeyValidator** 00000000-0000-0000-0000-000000000000 00000000-0000-0000-0000-000000000001
 
 **Result for** 00000000-0000-0000-0000-000000000000:**FAIL**
+
 **Result for** 00000000-0000-0000-0000-000000000001:**FAIL**
 ### Валидные ключи:
 * `$ java KeyValidator` 8f05e6a7-70e9-33d7-bfe7-b19eae0d8998
@@ -64,7 +71,7 @@
 * `$ java KeyValidator`` b6d53250-f07e-4352-a293-6102ddf7f1ca
 **Result for** b6d53250-f07e-4352-a293-6102ddf7f1ca:**FAIL**
 * `$ java KeyValidator` c2bc778a-1cb9-46c6-b435-0489649d2a42
-Result for c2bc778a-1cb9-46c6-b435-0489649d2a42:**FAIL**
+**Result for** c2bc778a-1cb9-46c6-b435-0489649d2a42:**FAIL**
 * `$ java KeyValidator` 2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1
 **Result for** 2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1:***OK***        
 **STATUS:FAILED**
